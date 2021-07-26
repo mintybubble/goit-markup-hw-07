@@ -1,15 +1,15 @@
-.services_list {
+.services__list {
   display: flex;
 }
 
-.services_item {
+.services__item {
   position: relative;
 
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
-.services_name {
+.services__name {
   color: var(--primary-white-colour);
   font-weight: 700;
   font-size: 14px;
@@ -17,7 +17,7 @@
   text-align: center;
   text-transform: uppercase;
 }
-.services_wrapper {
+.services-wrapper {
   position: absolute;
   bottom: 0;
   left: 0;

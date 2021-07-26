@@ -4,7 +4,7 @@
   justify-content: center;
   margin-bottom: 50px;
 
-  .button {
+  &__button {
     color: var(--secondary-text-colour);
     background-color: var(--button-colour);
     font-family: inherit;
@@ -31,6 +31,6 @@
     }
   }
 }
-.filter .item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }

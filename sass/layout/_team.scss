@@ -1,12 +1,12 @@
 .team {
   background-color: var(--button-colour);
 }
-.team_list {
+.team-list {
   display: flex;
   text-align: center;
 }
 
-.team_card {
+.team-card {
   background: var(--primary-white-colour);
   /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -19,7 +19,7 @@
   }
 }
 
-.team_name {
+.team-name {
   margin-top: 30px;
   margin-bottom: 10px;
 
@@ -28,16 +28,16 @@
   font-size: 16px;
   line-height: 1.19;
 }
-.team_job {
+.team-job {
   margin-bottom: 30px;
 
   font-size: 16px;
   line-height: 1.19;
 }
-.team_social-platforms {
+.team-social-platforms {
   display: inline-flex;
 }
-.team_social-list {
+.team-social-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +50,7 @@
   }
 }
 
-.team_social-link {
+.team-social-link {
   display: flex;
   align-items: center;
   justify-content: center;
